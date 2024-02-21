@@ -1,0 +1,78 @@
+﻿/* style file for bird 2-26 game Слугин */
+*::selection {
+  background: transparent;
+}
+*:hover {
+  cursor: default;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.centeredWrap {
+  width: 90vw;
+  height: 98vh;
+}
+.centeredWrap,
+.canvasHolder {
+  margin: 0 auto;
+}
+.score,
+.scoreRecord,
+.centeredWrap {
+  display: flex;
+  align-items: center;
+}
+.canvasHolder {
+  position: relative;
+  width: 431px;
+  height: 768px;
+}
+.score,
+.scoreRecord,
+.restartButton,
+.centeredWrap {
+  justify-content: center;
+}
+.score,
+.scoreRecord,
+.restartButton {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 7%;
+  transition-property: top, opacity;
+  border: 4px solid red;
+  transition-duration: 1s;
+  font-size: 23px;
+  background: radial-gradient(at center, #feffff, cyan);
+}
+.borderRadius {
+  border-radius: 10px;
+}
+.borderBlue {
+  border: 4px solid skyblue;
+}
+.score {
+  top: 10%;
+  color: blue;
+}
+.scoreRecord {
+  top: 20%;
+  color: mediumvioletred;
+}
+.score,
+.scoreRecord {
+  font-size: 27px;
+  font-weight: 600;
+}
+.restartButton {
+  top: 30%;
+  height: 10%;
+  width: 42%;
+  color: darkblue;
+}
+.restartButton:hover {
+  cursor: pointer;
+  background: radial-gradient(at center, #feffff, yellow);
+}
