@@ -1,6 +1,6 @@
 ﻿/* style file for bird 2-26 game Слугин */
 *::selection {
-  background: transparent;
+  background: gray;
 }
 *:hover {
   cursor: default;
